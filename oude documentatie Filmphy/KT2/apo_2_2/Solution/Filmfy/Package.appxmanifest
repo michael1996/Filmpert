@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
+  <Identity Name="a5e03634-66e6-45a6-91ce-a009df3bc06c" Publisher="CN=marco" Version="1.0.0.0" />
+  <mp:PhoneIdentity PhoneProductId="a5e03634-66e6-45a6-91ce-a009df3bc06c" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Filmfy</DisplayName>
+    <PublisherDisplayName>marco</PublisherDisplayName>
+    <Logo>Assets\FilmfyLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.1</OSMinVersion>
+    <OSMaxVersionTested>6.3.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Filmfy.App">
+      <m3:VisualElements DisplayName="Filmfy" Square150x150Logo="Assets\FilmfyLogo.png" Square44x44Logo="Assets\FilmfyLogo.png" Description="Filmfy" ForegroundText="light" BackgroundColor="transparent">
+        <m3:DefaultTile Wide310x150Logo="Assets\FilmfyLogo.png" Square71x71Logo="Assets\FilmfyLogo.png">
+        </m3:DefaultTile>
+        <m3:SplashScreen Image="Assets\SplashScreen.png" />
+      </m3:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClientServer" />
+  </Capabilities>
+</Package>

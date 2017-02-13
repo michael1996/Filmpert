@@ -1,0 +1,10 @@
+﻿<Application
+    x:Class="Filmfy.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Filmfy">
+    <Application.Resources>
+        <SolidColorBrush x:Key="ApplicationBackground" Color="CadetBlue"/>
+    </Application.Resources>
+
+</Application>
