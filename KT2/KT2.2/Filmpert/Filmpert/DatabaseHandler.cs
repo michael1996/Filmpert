@@ -8,14 +8,6 @@ namespace Filmpert
 {
     class DatabaseHandler
     {
-        public string DefaultConnectionString
-        {
-            get
-            {
-                return @"C:\USERS\TOMMY\DOCUMENTS\DATABASE.MDF";
-            }
-        }
-
         public string ConnectionString
         {
             get;
@@ -23,8 +15,46 @@ namespace Filmpert
         }
 
         public DatabaseHandler()
+            : this(@"C:\USERS\TOMMY\DOCUMENTS\DATABASE.MDF")
         {
+            
+        }
 
+        public DatabaseHandler(string connectionString)
+        {
+            ConnectionString = connectionString;
+        }
+
+        public string GetValue(string query)
+        {
+            string result = "";
+
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+                
+            }
+
+            return result;
+        }
+
+        public object[] GetValues(string query)
+        {
+            object[] result = { };
+
+            try
+            {
+
+            }
+            catch (Exception)
+            {
+                
+            }
+
+            return result;
         }
     }
 }

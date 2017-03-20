@@ -45,8 +45,19 @@ namespace Filmpert
         }
 
         public Movie()
+            : this (0, "", "", new DateTime(), "", "")
         {
 
+        }
+
+        public Movie(int id, string title, string description, DateTime release, string poster, string trailer)
+        {
+            MovieId = id;
+            Title = title;
+            Description = description;
+            ReleaseDate = release;
+            Poster = poster;
+            Trailer = trailer;
         }
 
         public void Add()

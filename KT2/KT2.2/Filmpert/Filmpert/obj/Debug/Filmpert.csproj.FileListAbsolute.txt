@@ -17,3 +17,9 @@ D:\tommy\Documents\Projects\Filmpert\Filmpert\obj\Debug\Filmpert.csproj.Generate
 D:\tommy\Documents\Projects\Filmpert\Filmpert\obj\Debug\Filmpert.dll
 D:\tommy\Documents\Projects\Filmpert\Filmpert\obj\Debug\Filmpert.pdb
 D:\tommy\Documents\Projects\Filmpert\Filmpert\obj\Debug\XapCacheFile.xml
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\App.g.cs
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\MainPage.g.cs
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\Filmpert.g.resources
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\Filmpert.Resources.AppResources.resources
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\Filmpert.csproj.GenerateResource.Cache
+D:\tommy\Documents\Github\Filmpert\KT2\KT2.2\Filmpert\Filmpert\obj\Debug\Filmpert.dll

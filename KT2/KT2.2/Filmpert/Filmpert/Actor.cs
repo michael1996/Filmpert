@@ -27,8 +27,16 @@ namespace Filmpert
         }
 
         public Actor()
+            : this(0, "", new DateTime())
         {
 
+        }
+
+        public Actor(int id, string name, DateTime birthday)
+        {
+            ActorId = id;
+            Name = name;
+            Birthday = birthday;
         }
 
         public void Add()

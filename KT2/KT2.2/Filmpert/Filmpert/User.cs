@@ -40,7 +40,7 @@ namespace Filmpert
             private set;
         }
 
-        public int Type
+        public UserType Type
         {
             get;
             private set;
@@ -53,8 +53,20 @@ namespace Filmpert
         }
 
         public User()
+            : this(0, "", "", "", new DateTime(), (UserType)1, false)
         {
             
+        }
+
+        public User(int id, string username, string password, string email, DateTime birthday, UserType type, bool loggedIn)
+        {
+            UserId = id;
+            Username = username;
+            Password = password;
+            Email = email;
+            Birthday = birthday;
+            Type = type;
+            LoggedIn = loggedIn;
         }
 
         public void Add()

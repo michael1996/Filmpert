@@ -21,8 +21,15 @@ namespace Filmpert
         }
 
         public MovieActor()
+            : this (0, 0)
         {
 
+        }
+
+        public MovieActor(int movieId, int actorId)
+        {
+            MovieId = movieId;
+            ActorId = actorId;
         }
 
         public void Add()

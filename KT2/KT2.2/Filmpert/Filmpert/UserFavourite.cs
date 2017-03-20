@@ -21,8 +21,15 @@ namespace Filmpert
         }
 
         public UserFavourite()
+            : this (0, 0)
         {
 
+        }
+
+        public UserFavourite(int userId, int movieId)
+        {
+            UserId = userId;
+            MovieId = movieId;
         }
 
         public void Add()
