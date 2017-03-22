@@ -11,7 +11,7 @@ namespace Filmpert
 
     static class QueryBuilder
     {
-        public string BuildQuery(string table, string[] columns, QueryStatements statements)
+        static public string BuildQuery(string table, string[] columns, QueryStatements statements)
         {
             string result = "";
 
@@ -40,6 +40,29 @@ namespace Filmpert
                 }
 
                 result = result.Trim() + ";";
+            }
+            catch (Exception)
+            {
+                
+            }
+
+            return result;
+        }
+
+        static public string BuildQuery(string table, string[] columns)
+        {
+            string result = "";
+
+            try
+            {
+                result += "Select ";
+
+                for (int i = 0; i < columns.Length; i++)
+                {
+                    result += columns[i] + " ";
+                }
+
+                result += "FROM " + table + ";";
             }
             catch (Exception)
             {

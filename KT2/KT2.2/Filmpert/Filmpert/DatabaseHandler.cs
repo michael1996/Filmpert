@@ -56,5 +56,22 @@ namespace Filmpert
 
             return result;
         }
+
+        public object[] GetValues(string table, string[] columns, QueryStatements statements)
+        {
+            object[] result = { };
+
+            try
+            {
+                string query = QueryBuilder.BuildQuery(table, columns, statements);
+                result = GetValues(query);
+            }
+            catch (Exception)
+            {
+                
+            }
+
+            return result;
+        }
     }
 }
